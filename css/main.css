@@ -8,12 +8,12 @@ header {
     border-bottom: 10px solid #000;
     padding: 10px 20px;
 }
-/* Título */
-h1 {
+
+span.logo-texto {
     font-family: 'Press Start 2P', sans-serif;
     color: white;
     text-shadow: 5px 5px 0 black;
-
+    font-size: 34px;
 }
 
 nav {
