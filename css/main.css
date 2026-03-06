@@ -9,7 +9,7 @@ header {
     padding: 10px 20px;
 }
 
-span.logo-texto {
+span {
     font-family: 'Press Start 2P', sans-serif;
     color: white;
     text-shadow: 5px 5px 0 black;
