@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Minha Treinadora Favorita</title>
+    <style>
+        :root {
+            --eevee-brown: #c4935e;
+            --eevee-cream: #f3e5ab;
+            --eevee-dark: #8b5a2b;
+            --love-pink: #ffb7c5;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--eevee-cream);
+            color: var(--eevee-dark);
+            text-align: center;
+        }
+
+        header {
+            background-color: var(--eevee-brown);
+            padding: 50px 20px;
+            color: white;
+            border-bottom: 8px solid var(--eevee-dark);
+        }
+
+        .heart {
+            color: #e74c3c;
+            font-size: 30px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .eevee-img {
+            width: 200px;
+            margin-top: -100px;
+            border: 5px solid white;
+            border-radius: 50%;
+            background: white;
+        }
+
+        h1 { margin-bottom: 10px; }
+
+        .message {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 20px 0;
+            font-style: italic;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .stat-card {
+            background: var(--eevee-cream);
+            padding: 15px;
+            border-radius: 15px;
+            border: 2px dashed var(--eevee-brown);
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        button {
+            background-color: var(--eevee-brown);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            background-color: var(--eevee-dark);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Minha Eevee Favorita <span class="heart">♥</span></h1>
+        <p>Você é a minha evolução mais bonita!</p>
+    </header>
+
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png" alt="Eevee" class="eevee-img">
+        
+        <div class="message">
+            <p>"Assim como uma Eevee tem o potencial de se tornar qualquer coisa incrível, você torna o meu mundo cheio de possibilidades. Não importa qual 'pedra' a vida nos jogue, eu sempre vou escolher evoluir ao seu lado."</p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <strong>Tipo:</strong><br>O Amor da Minha Vida
+            </div>
+            <div class="stat-card">
+                <strong>Habilidade:</strong><br>Me fazer sorrir (100% de chance)
+            </div>
+            <div class="stat-card">
+                <strong>Ataque Principal:</strong><br>Beijinho Carinhoso
+            </div>
+            <div class="stat-card">
+                <strong>Item Segurado:</strong><br>Meu Coração
+            </div>
+        </div>
+
+        <br><br>
+        <button onclick="alert('Te amo mais que um Shiny!')">Clique para um carinho</button>
+    </div>
+
+    <footer>
+        Feito com ❤️ por Yuri &copy; 2026
+    </footer>
+
+</body>
+</html>
