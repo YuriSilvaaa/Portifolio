@@ -1,4 +1,4 @@
-.banner{
+.main-banner{
     background-color: #313232;
     height: 800px;
     border-bottom: 10px solid #000;
@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
 }
 
-.banner .wrapper{
+.main-banner .wrapper{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -16,11 +16,11 @@
 
 }
 
-.banner .box{
+.main-banner .box{
     margin-bottom: 88px;
 }
 
-.banner .navigation{
+.main-banner .navigation{
     display: flex;
     justify-content: center;
     gap: 110px;
