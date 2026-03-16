@@ -1,4 +1,4 @@
-.box{
+.main-box{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,6 +9,6 @@
     padding: 42px 44px;
 }
 
-.box .title {
+.main-box .main-title {
     margin-bottom: 28px;
 }
